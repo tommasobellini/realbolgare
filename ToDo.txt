@@ -1,0 +1,21 @@
+- Fix login button
+
+- remove header social network icons and signup link
+
+- change email in header into realbolgare email
+
+- find a solution for last match team flag 
+
+- make dynamic news page and remove other pages not necessary
+
+- check navbar and footer links and translation
+
+- check classifica and risultati widgets
+
+- remove search icon in home page
+
+- check logo section (resize images)
+
+- remove newsletter section in footer and post recenti section
+
+- add partita iva ecc in footer
