@@ -383,6 +383,12 @@ img {
   height: auto;
   transition: all 0.8s ease-in-out 0s;
 }
+.img-width {
+  max-width: 100%;
+  height: auto;
+  width: 95vw;
+  transition: all 0.8s ease-in-out 0s;
+}
 .fix {
   overflow: hidden;
 }
@@ -3653,6 +3659,7 @@ body .modal-backdrop {
   cursor: pointer;
   overflow: hidden;
 }
+
 .gallery-section2 .single-gallery:after {
   content: "";
   width: 100%;
@@ -3736,6 +3743,15 @@ body .modal-backdrop {
   overflow: hidden;
   margin-bottom: 30px;
   cursor: pointer;
+}
+@media only screen and (max-width: 400px) {
+  .gallery-section-page2 .single-gallery {
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 95vw;
+  }
 }
 .gallery-section-page2 .single-gallery:after {
   content: "";
